@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/secret', (req, res) => {
-    res.send('Secret');
+    res.send('This secret is super secret.');
 });
 
 app.listen(port, () => {
